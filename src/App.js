@@ -9,6 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        This is proof that the change was made to Travis
         <Jeopardy />
         <Character />
       </div>
