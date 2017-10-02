@@ -9,7 +9,7 @@ export function getQuestion(){
     request.get(`${baseUrl}`,
       (error, response) => {
         if(!error) {
-          dispatch({ type: `GET_QUESTION`, question: response.body[0]});
+          dispatch({ type: 'GET_QUESTION', question: response.body[0]});
         }
       }
     )

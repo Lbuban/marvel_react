@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CharacterCard from '../charactercard/CharacterCard';
 import _ from 'lodash';
 
 export class JeopardyDisplay extends Component {
@@ -9,7 +8,7 @@ export class JeopardyDisplay extends Component {
   }
 
   render() {
-     let question = (this.props.question.question) ? this. props.question.question : ""
+     let question = (this.props.question.question) ? this. props.question.question : "";
     return (
       <div>
           {question.question}

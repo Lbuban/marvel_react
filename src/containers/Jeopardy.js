@@ -22,6 +22,6 @@ const Questions = connect( //run the function and connect the mapStateToProps an
   mapDispatchToProps
 )(JeopardyDisplay) 
 
-console.log(Questions)
+// console.log(Questions)
 
 export default Questions
